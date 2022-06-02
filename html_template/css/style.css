@@ -1,0 +1,148 @@
+@font-face {
+  font-family: Special_New;
+  src: url(/fonts/CharisSIL-Italic.ttf);
+}
+
+
+:root {
+	--wrapper-margin-top: 100px;
+	--wrapper-height: calc(100vh - var(--wrapper-margin-top));
+  --box-shadow-color: #bfbfbf;
+  --background: #fff;
+  --background-body:#A9A9A9;
+}
+
+
+
+
+* {
+ font-family: Verdana;
+ font-size: 12px;
+ 
+
+}
+
+html{
+  overflow-x: hidden;
+}
+
+body{
+  width: 100%;
+  background: var(--background-body);
+  box-sizing: border-box;
+}
+
+.header{
+  
+  background: var(--background);
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  margin: -8px 50px;
+  box-shadow: 0 0 16px 3px var(--box-shadow-color);
+
+}
+
+h1{
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  text-align: left;
+  margin: auto;
+  
+
+}
+
+h2{
+  font-family: Special_New;
+  font-size: 25px;
+}
+.menu, ul {
+  display: flex;
+  padding: 8px 20px;
+  flex-direction: row;
+  height: 100%;
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+  width: auto;
+  margin: 0px 20px;
+}
+li{
+  margin: 0 54px;
+}
+
+.container{
+  margin: 500px 50px 5px 50px;
+  padding-top: 10px;
+  background: var(--background);
+  box-shadow: 0 0 16px 3px var(--box-shadow-color);
+  height: fit-content;
+
+}
+
+
+
+
+.photo{
+  float: left;
+  border: 3px dotted blueviolet;
+  padding: 10px 10px 10px 10px;
+  margin: 20px 24px 10px 30px;
+}
+
+.content{
+  text-align: justify;
+  padding-left: 300px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  
+  
+}
+
+p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2em;
+}
+
+a{
+  color: #4682B4;
+  font-size: 15px;
+}
+a:hover{
+  color:brown;
+}
+
+a:visited{
+  color:chocolate;
+}
+
+
+.footer {
+  background:var(--background);
+  display: flex;
+  flex-direction: row;
+  margin: -6px 50px;
+  padding: 0 32px;
+  /* box-shadow: 0 0 16px 3px grey; */
+}
+
+.copyright {
+  padding: 20px 54px;
+  margin: auto;
+}
+.top {
+  padding: 20px 9px;
+  margin: 0 auto;
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:1024px) {
+  html,body,.container,.content,.menu,p, .footer{
+    width: 100%;
+  }
+}
+
+
