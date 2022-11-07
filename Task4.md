@@ -35,9 +35,9 @@
  
 ![image](https://user-images.githubusercontent.com/60044826/200368114-708f2ab6-12b7-416a-818f-a380f63bae61.png)
 
-Для выполнения задания и демонстрации результата используйте онлайн-редактор W3schools — [https://www.w3schools.com/php/phptryit.asp?filename=tryphp_compiler](https://www.w3schools.com/php/phptryit.asp?filename=tryphp_compiler).
+Для выполнения задания и демонстрации результата используйте онлайн-редактор W3schools — [https://www.w3schools.com/php/phptryit.asp?filename=tryphp_compiler](https://www.w3schools.com/php/phptryit.asp?filename=tryphp_compiler) .
 
-</aside>
+
 
 # Задача 4: создайте базу данных, состоящую из одной таблицы и выведите всех студентов, чей возраст больше 18.
 
