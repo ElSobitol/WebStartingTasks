@@ -51,3 +51,15 @@
 Выведите всех студентов, чей возраст больше 18.
 
 ![image](https://user-images.githubusercontent.com/60044826/172844065-238c9037-889e-4a0d-a879-d99683ac39a3.png)
+
+# Задача 5 * дополнительно: в уже созданном HTML-шаблоне в задании №2 добавьте строку **возраст.**
+
+С помощью арифметических операторов и выражений вычислите и выведите значения двух переменных:
+
+- возраст в годах,
+- возраст в днях.
+
+![image](https://user-images.githubusercontent.com/60044826/200383411-f856b4b0-624e-40f6-bd2e-8eea1f964b69.png)
+
+Для выполнения задания и демонстрации результата используйте онлайн-редактор W3schools — [https://www.w3schools.com/php/phptryit.asp?filename=tryphp_compiler](https://www.w3schools.com/php/phptryit.asp?filename=tryphp_compiler).
+
